@@ -1,0 +1,27 @@
+@media screen and (max-width:576px){
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-item-container{
+        flex-direction: column;
+    }
+    .nav-item-container a{
+        margin-top: 20px;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-text, .banner-img{
+        width: 100%;
+        
+    }
+      .banner-text h1{
+        font-size: 30px;
+      }
+      .banner-text p{
+        font-size: 25px;
+      }
+      .grid-container{
+        grid-template-rows: repeat(1,fr);
+      }
+}
