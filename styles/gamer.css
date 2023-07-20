@@ -244,3 +244,108 @@ transition: opacity 0.3s ease;
 .talking-tom img{
     margin: 0;
 }
+
+.grid-item{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 1400px;
+    height: 200px ;
+    margin: 0 auto;
+}
+.grid-item-container{
+   
+    border-radius: 50px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 281px;
+    height: 80px;
+}
+
+.grid-item-container p{
+    color: #0B0223;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+.footer-part{
+    margin: 0 auto 0;
+    max-width: 1600px;
+    min-height: 500px;
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+    background: #0B0223;
+}
+.logo-container{
+    text-align: center;
+    justify-content: center;
+}
+.footer-part .logo-container p{
+    color: #FFF;
+    text-align: center;
+}
+
+
+/* .primary-flex3{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+
+.footer-part .primary-flex1 ul{
+    width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+    list-style: none;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.footer-part .primary-flex1 a{
+    color: rgba(255, 255, 255, 0.60);
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.primary-flex2{
+    text-align: center;
+    color: #FFF;
+    padding: 30px;
+}
+.footer-part .primary-flex3 ul{
+    width: 80%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+    list-style: none;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.footer-part .primary-flex3 a{
+    color: rgba(255, 255, 255, 0.60);
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer-part  .footer-last-text{
+    color: rgba(255, 255, 255, 0.60);
+   text-align: center;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   padding: 40px;
+}
+

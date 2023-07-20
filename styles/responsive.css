@@ -24,4 +24,10 @@
       .grid-container{
         grid-template-rows: repeat(1,fr);
       }
+      .grid-item{
+        flex-direction: column;
+      }
+      .grid-item-container{
+        grid-template-rows: repeat(1,fr);
+      }
 }
